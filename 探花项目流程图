@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-15T11:47:07.615Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Czdf_weT6HmnGbS1Gz6f" version="14.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-01-15T12:54:43.273Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Zs746kbKeAOmnq2kRLGp" version="14.2.3" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1343" dy="2236" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1296" dy="2236" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" background="#ffffff" math="0" shadow="0">
       <root>
         <object label="" id="WIyWlLk6GJQsqaUBKTNV-0">
           <mxCell />
@@ -431,6 +431,120 @@
           <mxGeometry x="0.0783" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-57" value="具体功能实现" style="whiteSpace=wrap;html=1;fillColor=#FFFFCC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-61" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5YzSkP0e5SgtCjVPddaJ-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="1280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="1280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-58" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="1250" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-59" value="手机号登录app" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="1250" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-65" value="登录" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="60" y="1250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-68" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5YzSkP0e5SgtCjVPddaJ-60" target="5YzSkP0e5SgtCjVPddaJ-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-60" value="&lt;font color=&quot;#4d4d4d&quot;&gt;&lt;span style=&quot;font-size: 16px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;b&gt;Nginx&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(77 , 77 , 77) ; font-size: 16px ; font-weight: 700 ; background-color: rgb(255 , 255 , 255)&quot;&gt;网络信息的中转站,去获取信息&lt;/span&gt;&lt;font color=&quot;#4d4d4d&quot;&gt;&lt;span style=&quot;font-size: 16px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="477" y="1250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-66" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5YzSkP0e5SgtCjVPddaJ-58" target="5YzSkP0e5SgtCjVPddaJ-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="1280" as="targetPoint" />
+            <mxPoint x="310" y="1280" as="sourcePoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-71" value="调用" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.13;entryY=0.77;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5YzSkP0e5SgtCjVPddaJ-67" target="5YzSkP0e5SgtCjVPddaJ-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="990" y="1280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-86" value="响应状态" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.608;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5YzSkP0e5SgtCjVPddaJ-67" target="5YzSkP0e5SgtCjVPddaJ-60">
+          <mxGeometry x="0.0587" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="1120" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-91" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5YzSkP0e5SgtCjVPddaJ-67" target="5YzSkP0e5SgtCjVPddaJ-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-92" value="将验证码存储到redis" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5YzSkP0e5SgtCjVPddaJ-91">
+          <mxGeometry x="-0.1714" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-67" value="SSO&amp;nbsp;&amp;nbsp;&lt;br&gt;（发送短信接口）" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="770" y="1250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-69" value="传递手机号" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="630" y="1250" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-84" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 11px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;响应状态&lt;/span&gt;&#xa;&#xa;" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;exitX=0.625;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5YzSkP0e5SgtCjVPddaJ-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="1250" as="sourcePoint" />
+            <mxPoint x="830" y="1250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="920" y="1130" />
+              <mxPoint x="830" y="1180" />
+              <mxPoint x="790" y="1120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-70" value="阿里云短信服务" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1150" y="1220" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-72" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;open sans&amp;#34; , &amp;#34;clear sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;SSO系统接收到请求后，&lt;br&gt;生成随机验证码以及短信内容，&lt;br&gt;请求阿里云短信服务；&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="950" y="1300" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-73" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;open sans&amp;#34; , &amp;#34;clear sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;接收到请求后，&lt;br&gt;会进行一系列的验证，&lt;br&gt;比如账号余额、&lt;br&gt;短信模板是否正确等，&lt;br&gt;最后向运营商发起请求&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1169" y="1300" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-82" value="响应状态" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;entryX=0.805;entryY=0.173;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5YzSkP0e5SgtCjVPddaJ-77" target="5YzSkP0e5SgtCjVPddaJ-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="1120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1160" y="1120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-88" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5YzSkP0e5SgtCjVPddaJ-77">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="1320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="1620" />
+              <mxPoint x="770" y="1400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-89" value="随机验证码短信" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5YzSkP0e5SgtCjVPddaJ-88">
+          <mxGeometry x="0.3228" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-77" value="运营商" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1420" y="1250" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-78" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.96;exitY=0.7;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5YzSkP0e5SgtCjVPddaJ-70" target="5YzSkP0e5SgtCjVPddaJ-77">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1100" y="1240" as="sourcePoint" />
+            <mxPoint x="1150" y="1190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-90" value="Redis" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="800" y="1450" width="60" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
