@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-15T13:59:11.024Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="3oEVxT0WNI7Zb0cECAn0" version="14.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-01-15T14:00:05.958Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="QZRw2cLfs2ZqJN6p08wA" version="14.2.3" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1296" dy="2236" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" background="#ffffff" math="0" shadow="0">
       <root>
@@ -607,6 +607,9 @@
             <mxPoint x="800" y="2040" as="sourcePoint" />
             <mxPoint x="1390" y="2040" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-109" value="业务分析" style="whiteSpace=wrap;html=1;fillColor=#FFFFCC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="1750" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
