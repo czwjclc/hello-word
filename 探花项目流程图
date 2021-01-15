@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-15T12:55:44.297Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="2Y2zM3mbGSiN_86Wc1A2" version="14.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-01-15T13:25:21.246Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="9CKB2QZBWzJEMM1VT3_d" version="14.2.3" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1296" dy="2236" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" background="#ffffff" math="0" shadow="0">
       <root>
@@ -545,6 +545,34 @@
         </mxCell>
         <mxCell id="5YzSkP0e5SgtCjVPddaJ-90" value="Redis" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="800" y="1450" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-97" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5YzSkP0e5SgtCjVPddaJ-94" target="5YzSkP0e5SgtCjVPddaJ-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-98" value="传递手机号/验证码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5YzSkP0e5SgtCjVPddaJ-97">
+          <mxGeometry x="-0.2131" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-94" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="285" y="1800" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-99" value="传递手机号/ 验证码" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5YzSkP0e5SgtCjVPddaJ-95" target="5YzSkP0e5SgtCjVPddaJ-100">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="1850" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="818" y="1850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-95" value="返回值&lt;br&gt;ResponseEntity" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="595" y="1820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-96" value="userController" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="605" y="1800" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-100" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;1.先查询redis中是否存在验证码，比对是否正确&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;2.根据手机号查询MySQL中是否存在该手机号，判断为登录操作或者注册新账号，同时调用HuanXinService 注册到环信用户平台&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;3.将手机号和验证码经JWT加密成Token，将token存入到redis内存中作为登录的省份证，通行证，sso校验&lt;/div&gt;&lt;br&gt;&lt;div style=&quot;text-align: justify&quot;&gt;4.在sso中返回user给server用于&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="920" y="1765" width="380" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
