@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-15T11:43:12.497Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="FcoYQGAUjx6JRD2XYQi8" version="14.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-01-15T11:47:07.615Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Czdf_weT6HmnGbS1Gz6f" version="14.2.3" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1343" dy="2236" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" background="#ffffff" math="0" shadow="0">
       <root>
@@ -336,7 +336,7 @@
         <mxCell id="5YzSkP0e5SgtCjVPddaJ-21" value="Server" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="620" y="767" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5YzSkP0e5SgtCjVPddaJ-22" value="SSO" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-22" value="SSO&amp;nbsp; &amp;nbsp; 单点校验" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="620" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5YzSkP0e5SgtCjVPddaJ-27" value="其他功能" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -366,12 +366,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5YzSkP0e5SgtCjVPddaJ-38" value="虹软开放平台" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="910" y="260" width="120" height="80" as="geometry" />
+          <mxGeometry x="900" y="250" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5YzSkP0e5SgtCjVPddaJ-39" value="阿里云" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="970" y="360" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5YzSkP0e5SgtCjVPddaJ-41" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.16;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5YzSkP0e5SgtCjVPddaJ-22" target="5YzSkP0e5SgtCjVPddaJ-38">
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-41" value="人脸识别" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.16;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5YzSkP0e5SgtCjVPddaJ-22" target="5YzSkP0e5SgtCjVPddaJ-38">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="790" y="480" as="sourcePoint" />
             <mxPoint x="840" y="430" as="targetPoint" />
