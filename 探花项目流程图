@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-15T13:25:21.246Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="9CKB2QZBWzJEMM1VT3_d" version="14.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-01-15T13:59:11.024Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="3oEVxT0WNI7Zb0cECAn0" version="14.2.3" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1296" dy="2236" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" background="#ffffff" math="0" shadow="0">
       <root>
@@ -571,8 +571,42 @@
         <mxCell id="5YzSkP0e5SgtCjVPddaJ-96" value="userController" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="605" y="1800" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5YzSkP0e5SgtCjVPddaJ-100" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;1.先查询redis中是否存在验证码，比对是否正确&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;2.根据手机号查询MySQL中是否存在该手机号，判断为登录操作或者注册新账号，同时调用HuanXinService 注册到环信用户平台&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;3.将手机号和验证码经JWT加密成Token，将token存入到redis内存中作为登录的省份证，通行证，sso校验&lt;/div&gt;&lt;br&gt;&lt;div style=&quot;text-align: justify&quot;&gt;4.在sso中返回user给server用于&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-103" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5YzSkP0e5SgtCjVPddaJ-100" target="5YzSkP0e5SgtCjVPddaJ-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-106" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5YzSkP0e5SgtCjVPddaJ-100" target="5YzSkP0e5SgtCjVPddaJ-95">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="2040" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="788" y="1990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-108" value="返回isNew&amp;nbsp; 和 token&amp;nbsp; &amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5YzSkP0e5SgtCjVPddaJ-106">
+          <mxGeometry x="-0.1368" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-100" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;1.先查询redis中是否存在验证码，比对是否正确&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;2.根据手机号查询MySQL中是否存在该手机号，判断为登录操作或者注册新账号，同时调用HuanXinService 注册到环信用户平台&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;3.将手机号和验证码经JWT加密成Token，将token存入到redis内存中作为登录的省份证，通行证，sso校验&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;4.在sso中返回user&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="920" y="1765" width="380" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-101" value="userService" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1070" y="1770" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-105" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5YzSkP0e5SgtCjVPddaJ-102" target="5YzSkP0e5SgtCjVPddaJ-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-102" value="HuanXinService&amp;nbsp;&lt;br&gt;&lt;br&gt;1.&amp;nbsp; 调用HuanxinTokenService 获取token&lt;br&gt;2. 封装HuanxinUser 转成json 作为请求体，设置请求头，获取返回状态&lt;br&gt;&lt;br&gt;" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1450" y="1780" width="350" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-104" value="HuanxinTokenService&lt;br&gt;&lt;br&gt;从redis中获取token，如果没有从环信sdk中获取，存入Redis中" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1920" y="1785" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="5YzSkP0e5SgtCjVPddaJ-107" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="2040" as="sourcePoint" />
+            <mxPoint x="1390" y="2040" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
